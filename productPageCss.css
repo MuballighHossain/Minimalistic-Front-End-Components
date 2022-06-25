@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root{
+    --grey: #f6f6f6;
+    --animate: all 0.3s ease-out;  
+}
+body {
+    background-color: var(--grey);
+}
+.row{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.line{
+    border-right: 0.5px solid rgb(175, 175, 175);
+}
+
+.product-details-content {
+    position: relative;
+    padding: 40px;
+   margin-top: 4rem;
+    
+}
+.cata{
+    font-size: 15px;
+    color: #cccccc;
+    font-family:'Rubik',sans-serif;
+    
+}
+.product-title{
+    font-size: 25px;
+    color: #363636;
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-family:'Rubik',sans-serif;
+    
+}
+.quantity{
+    font-size: 15px;
+    color: #cccccc;
+    font-family:'Rubik',sans-serif;
+    margin-top: .5rem;
+    margin-bottom: .2rem;
+   
+}
+.price{
+    font-size: 22px;
+    color: #59b828;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family:'Rubik',sans-serif;
+}
+.del{
+    color: #d7d7d7;
+    margin-left: 15px;
+    font-family:'Rubik',sans-serif;
+}
+
+.buy-now {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background-color: #59b828;
+    border-radius: 5px;
+    padding: 9px 30px;
+    display: inline-block;
+    margin-top:-1rem;
+    margin-right: 20rem;
+}
+.btn-success{
+   background-color: #59b828  !important;
+}
+.product-box{
+    border-right:5px solid var(--grey);
+
+}
+.slick-next .slick-arrow:before{
+    display: none !important;
+}

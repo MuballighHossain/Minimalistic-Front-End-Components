@@ -1,0 +1,131 @@
+:root{
+    --grey: #f6f6f6;
+    --animate: all 0.3s ease-out;
+    --green:#59B828;
+    
+}
+*{
+   
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: lighter;
+}
+a, button, img, input, span {
+    transition: all 0.3s ease 0s;
+}
+a, button {
+    color: inherit;
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222d39;
+    font-weight: 600;
+    margin-top: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+a, button {
+    color: inherit;
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admin-page-section {
+    height: 310px;
+    background-image: url(./img/image5.jpeg);
+}
+.admin-content-area .admin-thumb {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    position: relative;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.admin-content-area .admin-thumb img {
+    width: 100%;
+}
+.admin-content-area .admin-content .name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #363636;
+}
+.admin-content-area .admin-content .desc {
+    color: #5f5f5f;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.dashboard-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.dashbord-nav {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+}
+
+.dashbord-nav {
+    background-color: #ffff;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dashbord-nav li a.active {
+    background-color: #59b828;
+    color: white;
+}
+.dashbord-nav li a {
+        border-radius: 5px;
+        border: none;
+}
+
+.dashbord-nav li a {
+    padding: 10px 25px;
+    display: block;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    border: 1px solid #f3f3f3;
+}
+li{
+    list-style: none;
+}
+.dashboard-section a{
+   color: grey;
+   
+}
+
+.prime-md-btn{
+    background-color: #ffff;
+    border: 2px solid #f6f6f6;
+}
+
+.line-2::after{
+    content: '';
+    border-bottom: 2px solid black;
+    display: block;
+    width: 10%;
+    transition: var(--animate);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.line-2:hover::after{
+    width: 90%;
+    border-bottom: 2px solid #59B828;
+    
+}

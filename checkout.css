@@ -1,0 +1,92 @@
+body {
+    background-color: #f9f9f9;
+    font-family: "Rubik", sans-serif;
+    line-height: 28px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    color: #4b566b;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222d39;
+    font-weight: 600;
+    margin-top: 0;
+    font-family: "Rubik", sans-serif;
+}
+p {
+    font-family: "Rubik", sans-serif;
+}
+.form-item{
+    background-color: #ffff;
+    margin-top: 5rem;
+
+}
+.contact-number-item .send-code-form input {
+    max-width: 250px;
+    width: 100%;
+    padding: 4px 15px;
+    border: 1px solid #dadada;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.contact-number-item .send-code-form .submit {
+    padding: 4px 15px;
+    border: none;
+    background-color: #59b828;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.contact-number-item .varify-code-form input {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    border: 1px solid #dadada;
+    background-color: #fdfdfd;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contact-number-item .varify-code-form .submit {
+    padding: 4px 15px;
+    border: none;
+    background-color: #59b828;
+    color: white;
+    outline: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.contact-number-item .varify-code-form .resend-code {
+    font-size: 13px;
+    margin-top: 0;
+    color: gray;
+}
+.bill-info{
+    background-color: #ffff;
+    margin-top: 2rem;
+}
+.btn-primary{
+    background-color: #59b828;
+    border: 0px;
+}
+.time-schedule-container .time-schedule-box {
+    background-color: #f9f9f9;
+    border: 1px solid #dadada;
+    padding: 20px;
+    max-width: 214px;
+    width: 100%;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+    
+}
+strong{
+    font-weight: bold;
+}
